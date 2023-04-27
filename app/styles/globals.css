@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply dark:bg-black dark:text-white text-black bg-white antialiased font-normal text-base;
+}
+
+@layer components {
+  .navbar {
+    @apply border-b dark:border-neutral-900 sticky top-0 dark:bg-black z-10;
+  }
+}
