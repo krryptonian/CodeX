@@ -17,7 +17,7 @@ const BlogPost = (props) => {
   } = props
 
   const post = getPostContent(slug)
-  console.log(post)
+
   return (
     <section className='container mt-10'>
       <div className='prose mx-auto dark:prose-invert max-w-5xl prose-img:aspect-video prose-img:object-cover prose-img:rounded-md'>
