@@ -12,9 +12,6 @@ const Home = () => {
             unique needs of my clients.
           </p>
         </div>
-        <button className='px-12 py-2 transition-all ease-in-out dark:bg-primary-dark bg-primary-light text-white dark:text-black rounded-full shadow-md hover:bg-transparent border-2 border-transparent hover:text-yellow-200 hover:border-yellow-200'>
-          Get in touch
-        </button>
       </div>
     </section>
   )
